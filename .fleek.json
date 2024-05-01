@@ -1,7 +1,7 @@
 {
   "build": {
     "image": "denoland/deno",
-    "command": "apt install git && deno task build",
+    "command": "apt update && apt -y install git && deno task build",
     "publicDir": "_site"
   }
 }
